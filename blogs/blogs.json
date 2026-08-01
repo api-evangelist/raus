@@ -1,0 +1,14 @@
+{
+  "repo": "raus",
+  "feeds": [
+    {
+      "source": "https://www.raus.life",
+      "feed_url": "https://www.raus.life",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

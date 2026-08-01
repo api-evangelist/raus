@@ -1,7 +1,15 @@
 aid: raus
 name: Raus
-description: Raus is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Raus (operated by StayRaus GmbH, Berlin) is a consumer platform for booking
+  sustainable, design-forward tiny cabins in nature across Germany and Austria,
+  giving city dwellers a quick escape "close to home." Guests browse and book
+  fully-equipped smart cabins in forests, by lakes, and on farms, add culinary
+  experiences and extras, buy gift cards, and can list their own land as a host.
+  Raus was surfaced as a portfolio company of Speedinvest and added to the API
+  Evangelist network. It is a B2C hospitality/booking brand with a public
+  consumer website but no publicly documented API, developer portal, SDKs, or
+  developer documentation as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/raus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +17,58 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Travel
+- Hospitality
+- Booking
+- Cabins
+- Vacation Rentals
+- Sustainability
+- Germany
+- Austria
+- Consumer
+image: https://www.raus.life/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/raus-domain-security.yml
+- type: Website
+  url: https://www.raus.life
+  name: Raus Website
+- type: Blog
+  url: https://www.raus.life/journal
+  name: Journal
+- type: Support
+  url: https://www.raus.life/help
+  name: Help & FAQs
+- type: TermsOfService
+  url: https://www.raus.life/terms-and-conditions
+  name: Terms and Conditions
+- type: PrivacyPolicy
+  url: https://www.raus.life/data-privacy
+  name: Data Privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
